@@ -1,0 +1,188 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important ;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;   
+}
+
+
+.header{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.bgimage {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.nav-link:hover{
+    color: #FEAF39 !important;
+
+}
+
+.bgblack {
+    
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.hero1 {
+    color: aliceblue;
+    z-index: 2;
+   animation-name: heroanimate;
+   animation-timing-function: ease-in-out;
+   animation-duration: 2s; 
+}
+
+.heroimg {
+    z-index: 2;
+    animation-name: rotate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@keyframes rotate  {
+    0% {
+
+        transform: rotate(0deg);
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+
+
+}
+
+
+@keyframes heroanimate {
+    0%{
+    position: relative;
+    left: -100%;
+      
+   }
+   100%{
+   left: 20%;
+   }
+   
+
+
+}
+/* ;;;;;;;;;;frontview;;;;;;;;;;;;;; */
+
+
+.icon{
+    font-size: 35px;
+    color: #327d8a65;
+}
+
+
+.plan1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.plan1:hover {
+    background-color:#FEAF39;;
+    color: aliceblue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5S;
+}
+
+/* ;;;;;;;;;;;;welcome;;;;;;;;;;;;;;;;;;; */
+
+
+
+.aboutpic1 {
+    border-radius: 20px 20px 20px 20px;
+}
+.aboutpic1:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2S;
+}
+
+.aboutpic2 {
+    border-radius: 20px 20px 20px 20px;
+}
+.aboutpic2:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2S;
+}
+
+.aboutpic3 {
+    border-radius: 20px 20px 20px 20px;
+}
+.aboutpic3:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2S;
+}
+
+.aboutpic4 {
+    border-radius: 20px 20px 20px 20px;
+}
+.aboutpic4:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2S;
+}
+
+/* ;;;;;;;;;;;aboutus;;;;;;;;;;;;;; */
+
+.border-primary {
+    color: #FEA116 !important;
+}
+
+.chefs:hover{
+    box-shadow: rgb(38, 57, 77) 0px 15px 25px -20px;
+    transition: 0.3s;
+}
+.r{
+    overflow: scroll;
+    transition:all 1s;
+}
+.r::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.person{
+    width: 500px;
+   background-color: #FEA116;
+    color: aliceblue
+  
+}
+.person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+
+
+
+/* ..........stricky............ */
+.striky{
+    color: #FEAF39;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    position:fixed;
+    right: 40px;
+    bottom: 50px;
+
+}
